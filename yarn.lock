@@ -5301,6 +5301,13 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
+react-native-agora@^2.4.1-alpha.3:
+  version "2.4.1-alpha.3"
+  resolved "https://registry.yarnpkg.com/react-native-agora/-/react-native-agora-2.4.1-alpha.3.tgz#b652da7f541a2d17794a0ccfaec79e063fba6d96"
+  integrity sha512-qO+ymoU/RY4b5xLnuOXWHqpUTqo9Bw8XVi1G3mhUIJ2i49IgV10nf4V10gCUIB2TU4Ens9uIubiKf/paDkWL4A==
+  dependencies:
+    tslib "^1.9.3"
+
 react-native-webview@^6.8.0:
   version "6.8.0"
   resolved "https://registry.yarnpkg.com/react-native-webview/-/react-native-webview-6.8.0.tgz#a8d4b0c8f4900c50dd40b7574dacc346dedb17d8"
@@ -6267,7 +6274,7 @@ trim-right@^1.0.1:
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
-tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==

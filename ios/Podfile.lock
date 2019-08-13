@@ -1,4 +1,5 @@
 PODS:
+  - AgoraRtcEngine_iOS (2.4.1)
   - boost-for-react-native (1.63.0)
   - DoubleConversion (1.1.6)
   - Folly (2018.10.22.00):
@@ -57,6 +58,13 @@ PODS:
     - React-cxxreact (= 0.60.4)
     - React-jsi (= 0.60.4)
   - React-jsinspector (0.60.4)
+  - react-native-agora (2.4.1-alpha.3):
+    - AgoraRtcEngine_iOS (= 2.4.1)
+    - React
+    - react-native-agora/AgoraRtcCryptoLoader (= 2.4.1-alpha.3)
+  - react-native-agora/AgoraRtcCryptoLoader (2.4.1-alpha.3):
+    - AgoraRtcEngine_iOS (= 2.4.1)
+    - React
   - react-native-webview (6.8.0):
     - React
   - React-RCTActionSheet (0.60.4):
@@ -97,6 +105,7 @@ DEPENDENCIES:
   - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
+  - react-native-agora (from `../node_modules/react-native-agora`)
   - react-native-webview (from `../node_modules/react-native-webview`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -112,6 +121,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AgoraRtcEngine_iOS
     - boost-for-react-native
 
 EXTERNAL SOURCES:
@@ -137,6 +147,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
   React-jsinspector:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
+  react-native-agora:
+    :path: "../node_modules/react-native-agora"
   react-native-webview:
     :path: "../node_modules/react-native-webview"
   React-RCTActionSheet:
@@ -163,6 +175,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  AgoraRtcEngine_iOS: fe27212f2c60add634f6e975ce7734ab45390bc8
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
@@ -175,6 +188,7 @@ SPEC CHECKSUMS:
   React-jsi: 40f467ff088c811c6630acccb4aea57ea7ccb1b5
   React-jsiexecutor: e4b4717060a0cd8d0270323b5655a68c95432efd
   React-jsinspector: 044105eea064aec81adc5e4d777a8f6589e7d094
+  react-native-agora: 5db1f37076e714bb945f6933e3222be8d2139082
   react-native-webview: ad9581723f4d401c22cb3a371811d4dc9310df56
   React-RCTActionSheet: 08864c609d9f959abf3d51fdd93f8bc6e91f21eb
   React-RCTAnimation: a4547e9fac2627ded3df9d302f5558b475faf819
@@ -188,6 +202,6 @@ SPEC CHECKSUMS:
   React-RCTWebSocket: f32b93e0953d7c07fd5dd45305406282cfdc95cf
   yoga: 88c514f310aff89b94a14c5fbf44b95735af0cb7
 
-PODFILE CHECKSUM: d6a632ade515aa531503b08204cabd1204175e5f
+PODFILE CHECKSUM: 8e7b06cb7c079b34f1f7f8c4001d2f0e786d678d
 
 COCOAPODS: 1.5.3
