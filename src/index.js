@@ -46,11 +46,11 @@ export default class App extends Component {
 
   openLink = () => {
     console.log('open link...');
-    Linking.openURL('facetime://fl.isabela@gmail.com').catch(err => {
+    Linking.openURL('facetime://user@email.com').catch(err => {
       console.error('An error occurred', err);
       return null;
     });
-    // Linking.openURL('https://appear.in/health.inn').catch(err =>
+    // Linking.openURL('https://appear.in/YourAppearLinkHere').catch(err =>
     //   console.error('An error occurred', err)
     // );
   };
@@ -59,7 +59,7 @@ export default class App extends Component {
     return (
       <>
         {/* <WebView
-          source={{ url: 'https://appear.in/health.inn' }}
+          source={{ url: 'https://appear.in/YourAppearLinkHere' }}
           style={{ marginTop: 50 }}
           useWebKit={true}
           userAgent={
